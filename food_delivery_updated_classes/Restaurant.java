@@ -101,6 +101,17 @@ public void display() {
     displayRestaurant();
     displayMenu();
 }
+    public void display(boolean showMenu) {
+
+    displayRestaurant();
+
+    if (showMenu) {
+
+        displayMenu();
+
+    }
+
+}
 
    
 }
