@@ -63,10 +63,13 @@ public class Main {
             System.out.println();
         }
 
-        System.out.println("===== RESTAURANTS =====");
+         System.out.println("===== RESTAURANTS =====");
         for (Restaurant restaurant : restaurantList) {
             restaurant.display();
             System.out.println();
+            restaurant.display(true);   // overloaded display: restaurant only
+
+         
         }
 
         System.out.println("===== UNIQUE CATEGORIES =====");
